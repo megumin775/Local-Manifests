@@ -4,21 +4,17 @@
 
   <remote name="chikafujiwara45"
           fetch="https://github.com/chikafujiwara45" />
-  <remote name="LineageOS"
-          fetch="https://github.com/LineageOS" />
   <remote name="Kneba"
           fetch="https://github.com/Kneba" />
   <remote name="RyuujiX"
           fetch="https://github.com/RyuujiX" />
-  <remote name="cbendot"
-          fetch="https://github.com/cbendot" />
   <remote name="Gaurav241"
           fetch="https://github.com/Gaurav241" />
   
   <!-- Sync trees -->        
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="LineageOS" revision="lineage-19.1" />
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Kneba" revision="xdoss" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="cbendot" revision="19.1" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Tiktodz" revision="nad" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD-1" remote="chikafujiwara45" revision="nusan-a12" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Tiktodz" revision="nad" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="RyuujiX" revision="r7/eas" />
         <project path="packages/apps/GoogleCam" name="packages_apps_GoogleCamera" remote="Gaurav241" revision="eleven" />
   
