@@ -21,7 +21,6 @@
 
 
 <!-- hals -->
-
 <project path="hardware/qcom-caf/msm8998/display" name="ArrowOS/android_hardware_qcom_display" remote="github" revision="arrow-12.1-caf-msm8998" />
 
 </manifest>
