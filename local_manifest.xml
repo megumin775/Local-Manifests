@@ -11,7 +11,7 @@
         <project path="device/asus/sdm660-common" name="ct" remote="chikafujiwara45" revision="rice" />
         <project path="device/asus/X00TD" name="device_asus_X00TD-1" remote="chikafujiwara45" revision="PixelOS" />
         <project path="vendor/asus" name="vt" remote="Tiktodz" revision="master" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="chikafujiwara45" revision="hklknz" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="chikafujiwara45" revision="r7/eas" />
         <project path="packages_apps_NekoPoi" name="packages_apps_NekoPoi" remote="chikafujiwara45" revision="main" />
 
 </manifest>
