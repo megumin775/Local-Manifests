@@ -8,7 +8,7 @@
           fetch="https://github.com/Tiktodz" />
 
   <!-- Sync trees -->        
-        <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="rice" />
+        <project path="device/asus/sdm660-common" name="ct" remote="chikafujiwara45" revision="rice" />
         <project path="device/asus/X00TD" name="device_asus_X00TD-1" remote="chikafujiwara45" revision="PixelOS" />
         <project path="vendor/asus" name="vt" remote="Tiktodz" revision="master" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="chikafujiwara45" revision="hklknz" />
