@@ -4,23 +4,23 @@
 
   <remote name="chikafujiwara45"
           fetch="https://github.com/chikafujiwara45" />
-  <remote name="Kneba"
-          fetch="https://github.com/Kneba" />
-  <remote name="pe"
-          fetch="https://github.com/PixelExperience" />
-  
+  <remote name="Tiktodz"
+          fetch="https://github.com/Tiktodz" />
+  <remote name="ArrowOS"
+          fetch="https://github.com/ArrowOS" />
+
   <!-- Sync trees -->        
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="twelve" />
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="chikafujiwara45" revision="xdoss" />
-        <project path="vendor/asus" name="vendor_asus" remote="Kneba" revision="twelve" />
+        <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="rice" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD-1" remote="chikafujiwara45" revision="PixelOS" />
+        <project path="vendor/asus" name="vt" remote="Tiktodz" revision="master" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="chikafujiwara45" revision="hklknz" />
         <project path="packages_apps_NekoPoi" name="packages_apps_NekoPoi" remote="chikafujiwara45" revision="main" />
 
 <!-- remove -->
-<remove-project path="hardware/qcom-caf/msm8996/display" />
+<remove-project name="hardware_qcom-caf_msm8998_display" />
 
 
 <!-- hals -->
-<project patch="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8996_display" remote="pe"  revision="twelve" />
+<project path="hardware/qcom-caf/msm8998/display" name="ArrowOS/android_hardware_qcom_display" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
 
 </manifest>
