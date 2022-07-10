@@ -18,6 +18,6 @@
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="chikafujiwara45" revision="hklknz" />
         <project path="packages/apps/GoogleCam" name="packages_apps_GoogleCamera" remote="Gaurav241" revision="eleven" />
         <project path="packages/apps/NekoPoi" name="packages_apps_NekoPoi" remote="chikafujiwara45" revision="main" />
-        <project path="hardware/qcom-caf/msm8998/display" remote="PixelExperience" revision="twelve" />
         <remove-project name="hardware/qcom-caf/msm8998/display" />
+        <project path="hardware/qcom-caf/msm8998/display" remote="PixelExperience" revision="twelve" />
 </manifest>
