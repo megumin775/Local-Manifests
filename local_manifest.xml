@@ -4,8 +4,6 @@
 
   <remote name="chikafujiwara45"
           fetch="https://github.com/chikafujiwara45" />
-  <remote name="Gaurav241"
-          fetch="https://github.com/Gaurav241" />
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
   <remote name="PixelExperience"
@@ -16,7 +14,6 @@
         <project path="device/asus/X00TD" name="device_asus_X00TD-1" remote="chikafujiwara45" revision="PixelOS" />
         <project path="vendor/asus" name="vt" remote="Tiktodz" revision="master" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="chikafujiwara45" revision="hklknz" />
-        <project path="packages/apps/GoogleCam" name="packages_apps_GoogleCamera" remote="Gaurav241" revision="eleven" />
         <project path="packages/apps/NekoPoi" name="packages_apps_NekoPoi" remote="chikafujiwara45" revision="main" />
         <remove-project name="hardware/qcom-caf/msm8998/display" />
         <project path="hardware/qcom-caf/msm8998/display" remote="PixelExperience" revision="twelve" />
