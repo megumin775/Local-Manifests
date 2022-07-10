@@ -6,6 +6,8 @@
           fetch="https://github.com/chikafujiwara45" />
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
+  <remote name="ArrowOS"
+          fetch="https://github.com/ArrowOS" />
 
   <!-- Sync trees -->        
         <project path="device/asus/sdm660-common" name="ct" remote="chikafujiwara45" revision="rice" />
@@ -13,5 +15,12 @@
         <project path="vendor/asus" name="vt" remote="Tiktodz" revision="master" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="chikafujiwara45" revision="r7/eas" />
         <project path="packages_apps_NekoPoi" name="packages_apps_NekoPoi" remote="chikafujiwara45" revision="main" />
+ 
+  <!-- Remove HALs -->
+        <remove-project name="hardware_qcom-caf_msm8998_display"
+
+  <!-- sync HALs -->
+        <project path="hardware/qcom-caf/msm8998/display" name="ArrowOS/android_hardware_qcom_display" remote="github" revision="arrow-12.1-caf-msm8998" />
+
 
 </manifest>
