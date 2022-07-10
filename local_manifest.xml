@@ -8,7 +8,10 @@
           fetch="https://github.com/Tiktodz" />
   <remote name="PixelExperience"
           fetch="https://github.com/PixelExperience" />
-  
+
+  <!-- Remove Trees -->
+        <remove project path="hardware/qcom/msm8998"/>
+
   <!-- Sync trees -->        
         <project path="device/asus/sdm660-common" name="ct" remote="Tiktodz" revision="rice" />
         <project path="device/asus/X00TD" name="device_asus_X00TD-1" remote="chikafujiwara45" revision="PixelOS" />
