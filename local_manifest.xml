@@ -20,7 +20,7 @@
         <remove-project name="hardware_qcom-caf_msm8998_display" />
 
   <!-- sync HALs -->
-        <project path="hardware/qcom-caf/msm8998/display" name="ArrowOS/android_hardware_qcom_display" remote="github" revision="arrow-12.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/display" name="ArrowOS/android_hardware_qcom_display" remote="ArrowOS" revision="arrow-12.1-caf-msm8998" />
 
 
 </manifest>
