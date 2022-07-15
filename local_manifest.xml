@@ -13,9 +13,14 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="12" />
         <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="chikafujiwara45" revision="komodo-12.1" />
         <project path="vendor/asus" name="vendor_asus" remote="Kneba" revision="twelve" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="chikafujiwara45" revision="r7/eas" />
-
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="chikafujiwara45" revision="hklknz" />
+  
+<!-- Remove -->
+        <remove-project name="bootable_recovery" />
         <remove-project name="vendor_komodo" />     
+  
+  <!-- Sync HALs-->
         <project path="vendor/komodo" name="vendor_komodo" remote="lavender-dump" revision="12.1" />
+        <project path="bootable/recovery" name="bootable_recovery" remote="Tiktodz" revision="12" />
 
 </manifest>
