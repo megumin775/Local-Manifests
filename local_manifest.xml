@@ -8,8 +8,8 @@
           fetch="https://github.com/Kneba" />
   <remote name="lavender-dump"
           fetch="https://github.com/lavender-dump" />
-  <remote name="Tiktodz"
-          fetch="https://github.com/Tiktodz" />
+  <remote name="xdroid-CAF"
+          fetch="https://github.com/xdroid-CAF" />
 
   <!-- Sync trees -->        
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="12" />
@@ -23,6 +23,6 @@
   
   <!-- Sync HALs-->
         <project path="vendor/komodo" name="vendor_komodo" remote="lavender-dump" revision="12.1" />
-        <project path="bootable/recovery" name="bootable_recovery" remote="Tiktodz" revision="12" />
+        <project path="bootable/recovery" name="xd_bootable_recovery" remote="xdroid-CAF" revision="twelve" />
 
 </manifest>
