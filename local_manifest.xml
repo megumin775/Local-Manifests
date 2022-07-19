@@ -6,10 +6,11 @@
           fetch="https://github.com/megumin775" />
   <remote name="Kneba"
           fetch="https://github.com/Kneba" />
-  
+  <remote name="PKM774"
+          fetch="https://github.com/pkm774" />
   <!-- Sync trees -->        
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="twelve" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="12" />
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="megumin775" revision="fusion" />
         <project path="vendor/asus" name="vendor_asus" remote="Kneba" revision="twelve" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="megumin775" revision="hklknz" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="pkm774" revision="master" />
 </manifest>
