@@ -4,18 +4,20 @@
 
   <remote name="megumin775"
           fetch="https://github.com/megumin775" />
-  <remote name="Kneba"
-          fetch="https://github.com/Kneba" />
+  <remote name="Tiktodz"
+          fetch="https://github.com/Tiktodz" />
   <remote name="lavender-dump"
           fetch="https://github.com/lavender-dump" />
-  <remote name="xdroid-oss"
-          fetch="https://github.com/xdroid-oss" />
+  <remote name="pkm774"
+          fetch="https://github.com/pkm774" />
+<remote name="ArrowOS"
+          fetch="https://github.com/ArrowOS" />
 
   <!-- Sync trees -->        
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common_S" remote="Tiktodz" revision="twelve" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="megumin775" revision="twelve" />
         <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="megumin775" revision="komodo-fixed" />
-        <project path="vendor/asus" name="vendor_asus" remote="Kneba" revision="twelve" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="megumin775" revision="hklknz" />
+        <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="NL" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="pkm774" revision="master" />
   
 <!-- Remove -->
         <remove-project name="bootable_recovery" />
@@ -23,6 +25,6 @@
   
   <!-- Sync HALs-->
         <project path="vendor/komodo" name="vendor_komodo" remote="lavender-dump" revision="12.1" />
-        <project path="bootable/recovery" name="xd_bootable_recovery" remote="xdroid-oss" revision="twelve" />
+        <project path="bootable/recovery" name="android_bootable_recovery" remote="ArrowOS" revision="arrow-12.1" />
 
 </manifest>
