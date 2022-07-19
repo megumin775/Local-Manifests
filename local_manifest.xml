@@ -10,7 +10,7 @@
           fetch="https://github.com/lavender-dump" />
   <remote name="pkm774"
           fetch="https://github.com/pkm774" />
-<remote name="ArrowOS"
+  <remote name="ArrowOS"
           fetch="https://github.com/ArrowOS" />
 
   <!-- Sync trees -->        
