@@ -4,17 +4,19 @@
 
   <remote name="megumin775"
           fetch="https://github.com/megumin775" />
-  <remote name="Tiktodz"
-          fetch="https://github.com/Tiktodz" />
+  <remote name="Kneba"
+          fetch="https://github.com/Kneba" />
   <remote name="lavender-dump"
           fetch="https://github.com/lavender-dump" />
   <remote name="pkm774"
           fetch="https://github.com/pkm774" />
+   <remote name="Kneba"
+          fetch="https://github.com/Kneba" />
   <remote name="ArrowOS"
           fetch="https://github.com/ArrowOS" />
 
   <!-- Sync trees -->        
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="megumin775" revision="twelve" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Kneba" revision="twelve" />
         <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="megumin775" revision="komodo-fixed" />
         <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="NL" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="pkm774" revision="master" />
