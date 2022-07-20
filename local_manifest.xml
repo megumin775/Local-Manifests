@@ -10,6 +10,8 @@
           fetch="https://github.com/ArrowOS" />
   <remote name="pkm774"
           fetch="https://github.com/pkm774" />
+  <remote name="LineageOS"
+          fetch="https://github.com/LineageOS" />
 
   <!-- Sync trees -->        
         <project path="device/asus/sdm660-common" name="ct" remote="megumin775" revision="rice" />
@@ -21,6 +23,6 @@
         <remove-project name="hardware_qcom-caf_msm8998_display" />
 
   <!-- sync HALs -->
-        <project path="hardware/qcom-caf/msm8998/display" name="LineageOS/lineage-19.1-caf-msm8998" remote="ArrowOS" revision="arrow-12.1-caf-sdm660" />
+        <project path="hardware/qcom-caf/msm8998/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-19.1-caf-msm8998" />
 
 </manifest>
