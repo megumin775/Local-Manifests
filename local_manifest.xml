@@ -17,7 +17,7 @@
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="Kneba" revision="xd" />
         <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="megumin775" revision="komodo-fixed" />
         <project path="vendor/asus" name="vendor_asus" remote="megumin775" revision="twelve-beta" />
-        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="pkm774" revision="master" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="megumin775" revision="master" />
   
   <!-- Remove -->
         <remove-project name="bootable_recovery" />
